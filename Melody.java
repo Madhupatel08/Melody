@@ -67,10 +67,10 @@ public class Melody
 
         if(pq.size()!=0){
 			System.out.println("Wanna choose from your playlist?");
-			String ans=scn.next();
+			String ans = scn.next();
 			if(ans.equalsIgnoreCase("no"))
 			{
-				for(String keys:map.keySet())
+				for(String keys : map.keySet())
 					System.out.println("* "+keys);
 			}
 			else
@@ -102,7 +102,7 @@ public class Melody
 	{ 
 		try
 		{ 
-			boolean flag=true;
+			boolean flag = true;
 			do{
 				filePath = getChoice(); 
 				history.push(filePath);
